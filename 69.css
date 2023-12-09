@@ -246,10 +246,16 @@ header .navigation .navigation_menu a:hover:before{
     	transform: translateY(-500px);
 		}
 }
-.mainimg{
-	position: relative;
-	z-index: 2;
+.welmain{
 	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	z-index: 3;
+}
+.mainimg{
+	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	width: 100%;
@@ -258,9 +264,13 @@ header .navigation .navigation_menu a:hover:before{
 .venimg{
 	display: flex;
 	justify-content: center;
+	width: 100%;
+	height: auto;
+	cursor: pointer;
+}
+.venimg img{
 	width: 400px;
 	height: 400px;
-	cursor: pointer;
 }
 .venimg:hover{
 	animation: rotate 3s linear;
@@ -272,7 +282,6 @@ header .navigation .navigation_menu a:hover:before{
     flex-wrap: wrap;
     justify-content: center;
     line-height: 1.1;
-    position: absolute;
     z-index: 2;
     max-width: 800px;
 }
@@ -350,15 +359,19 @@ header .navigation .navigation_menu a:hover:before{
 		rotate: 180deg;
 	}
 }
-
+@media (max-width: 765px){
+	.welcome {
+    font-size: 3.1rem;
+ 	}
+}
 @media (max-width: 465px){
-	.venimg{
-		width: 300px;
-		height: 300px;
+	.venimg img{
+		width: 290px;
+		height: 290px;
 	}
 	.welcome {
-    font-size: 3.2rem;
- }
+    font-size: 2rem;
+ 	}
 }
 
 .aboutus{
@@ -369,6 +382,7 @@ header .navigation .navigation_menu a:hover:before{
     display: flex;
     justify-content: center;
     padding: 80px 0;
+    margin: 30px 0;
 }
 .mainabout{
 	position: absolute;
@@ -453,15 +467,16 @@ header .navigation .navigation_menu a:hover:before{
 	font-size: 18px;
 }
 .cspan{
-	font-weight: bold; font-size: 30px; margin-top: 2%; color: #F6E172; text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+	font-weight: bold; font-size: 30px; margin-top: 2%; color: #F6E172;
 }
 @media (max-width: 950px){
 	.aboutus{
-		min-height: 100vh;
+		height: 150vh;
 		display: flex;
 		justify-content: center;
 	}
 	.aboutcon{
+		height: 125vh;
 		display: flex;
 		flex-direction: column;
 	}
@@ -514,7 +529,6 @@ header .navigation .navigation_menu a:hover:before{
 	display: flex;
 	font-size: 40px;
 	color: #F4CA26; 
-	text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
 	position: relative;
 }
 .services:before{
@@ -589,10 +603,10 @@ header .navigation .navigation_menu a:hover:before{
     	border: 1px solid rgba(0, 0, 0, 0.8);
  	}
 }
-@media (max-width: 500px){
+@media (max-width: 515px){
 	.ourservices{
-		height: 150vh;
-		padding: 0;
+		height: auto;
+		padding: 30px 0px;
 	}
 	.services{
 		display: flex;
@@ -606,6 +620,16 @@ header .navigation .navigation_menu a:hover:before{
 	}
 	.perser{
 		height: 100%;
+	}
+	.ser1{
+		height: auto;
+    	padding: 20px;
+	}
+	.ser1 h{
+		font-size: 18px;
+	}
+	.ser1 p{
+		font-size: 13px;
 	}
 }
 .ourprofolio{
@@ -709,13 +733,8 @@ header .navigation .navigation_menu a:hover:before{
 		margin-left: 0;
 	}
 }
-@media (max-width: 595px){
-	.profoimg img{
-		width: 400px;
-		height: 400px;
-	}
-}
-@media (max-width: 400px){
+
+@media (max-width: 950px){
 	.profoimg img{
 		display: none;
 	}
@@ -738,8 +757,7 @@ header .navigation .navigation_menu a:hover:before{
 	z-index: 5;
 	display: flex;
 	font-size: 50px;
-	color: #F4CA26; 
-	text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+	color: #F4CA26;
 	position: relative;
 	font-weight: bold;
 
