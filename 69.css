@@ -198,7 +198,7 @@ header .navigation .navigation_menu a:hover:before{
     bottom: 0;
     z-index: 1!important;
     overflow: hidden;
-    background: #F6F4E6;
+    background: black;
 }
 .star-field1{
 	position: absolute;
