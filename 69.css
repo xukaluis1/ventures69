@@ -30,6 +30,7 @@ header{
 	transition-property: height, background;
 	z-index: 999;	
 	background: rgb(191, 181, 127.75);
+	border-radius: 0 0 10px 10px;
 	box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.7);
 }
 header.sticky{
@@ -476,7 +477,6 @@ header .navigation .navigation_menu a:hover:before{
 		justify-content: center;
 	}
 	.aboutcon{
-		height: 125vh;
 		display: flex;
 		flex-direction: column;
 	}
@@ -565,9 +565,9 @@ header .navigation .navigation_menu a:hover:before{
 	border: 2px solid rgba(0, 0, 0, 0.8);
 	box-sizing: border-box;
 }
-.ser1 h, p{
+.ser1 h, .ser1 p{
 	margin-left: 20px;
-	width: 80%;
+	width: 90%;
 	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 .ser1 h{
@@ -684,11 +684,11 @@ header .navigation .navigation_menu a:hover:before{
 }
 
 .procon h{
-	color: #C89645;
+	color: #F4CA26;
 	font-size: 40px;
 	text-transform: uppercase;
 	font-weight: bold;
-	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+	
 	text-shadow: 
         1px 1px 1px rgba(0, 0, 0, 0.5), 
         -1px -1px 1px #000, 
@@ -698,10 +698,15 @@ header .navigation .navigation_menu a:hover:before{
 
 
 .procon p{
+	width: 90%;
 	text-align: center;
-	color: black;
+	color: white;
 	font-size: 15px;
-	text-shadow: 2px 2px 4px rgba(255, 229, 127, 1);
+	text-shadow: 
+        1px 1px 1px rgba(0, 0, 0, 1), 
+        -1px -1px 1px #000, 
+        1px -1px 1px #000, 
+        -1px 1px 1px #000;
 }
 .pros{
 	display: flex;
@@ -782,6 +787,13 @@ header .navigation .navigation_menu a:hover:before{
 	}
 }
 
+@media (max-width: 550px){
+	.media p{
+		width: 90%;
+	}
+}
+
+
 
 .ventures69{
 	z-index: 4;
@@ -791,6 +803,7 @@ header .navigation .navigation_menu a:hover:before{
 	justify-content: center;
 	background: rgba(0, 0, 0, 0.8);
 	align-items: flex-end;
+	padding-bottom: 25px;
 }	
 .footer{
 	width: 80%;
