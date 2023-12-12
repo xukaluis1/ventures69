@@ -887,3 +887,15 @@ header .navigation .navigation_menu a:hover:before{
 		height: 80px;
 	}
 }
+
+.allss{
+	width: 100%;
+	background: black;
+	z-index: 3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	height: auto;
+	font-size: 16px;
+}
