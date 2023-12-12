@@ -477,6 +477,7 @@ header .navigation .navigation_menu a:hover:before{
 		justify-content: center;
 	}
 	.aboutcon{
+		height: 110vh;
 		display: flex;
 		flex-direction: column;
 	}
@@ -486,8 +487,8 @@ header .navigation .navigation_menu a:hover:before{
 }
 @media (max-width: 600px){
 	.introcontent{
-	margin-left: 20px;
-    font-size: 17px;
+		margin-left: 20px;
+	    font-size: 17px;
 	}
 }
 @media (max-width: 485px){
