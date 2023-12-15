@@ -965,6 +965,9 @@ header .navigation .navigation_menu a:hover:before{
 		display: flex;
 		flex-direction: column;
 	}
+	.hidenprofit{
+		width: 100%;
+	}
 	.footer{
 	width: 90%;
 	}
