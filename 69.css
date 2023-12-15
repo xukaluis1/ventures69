@@ -747,9 +747,10 @@ header .navigation .navigation_menu a:hover:before{
 }
 .ourmedia{
 	width: 100%;
-	height: auto;
+	height: 100vh;
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	background: rgba(0, 0, 0, 0.8);
 	z-index: 3;
 	padding-bottom: 3%;
@@ -806,7 +807,7 @@ header .navigation .navigation_menu a:hover:before{
 .container-card{
 	width: 100%;
 	display: flex;
-	max-width: 1100px;
+	max-width: 900px;
 	margin: auto;
 	z-index: 3;
 }
@@ -858,8 +859,8 @@ header .navigation .navigation_menu a:hover:before{
 	padding: 10px;
 	margin-top: 10px;
 	text-decoration: none;
-	color: #2fb4cc;
-	border: 1px solid #2fb4cc;
+	color:  #F4CA26;
+	border: 1px solid #F4CA26;
 	border-radius: 4px;
 	transition: all 400ms ease;
 	margin-bottom: 5px;
