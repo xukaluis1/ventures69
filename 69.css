@@ -711,6 +711,7 @@ header .navigation .navigation_menu a:hover:before{
 }
 .pros{
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	gap: 40px;
 	margin-top: 3%;
@@ -781,7 +782,7 @@ header .navigation .navigation_menu a:hover:before{
 }
 .media p{
 	text-align: center;
-	width: 60%;
+	width: 90%;
 	margin-top: 1%;
 }
 @media (max-width: 427px){
