@@ -748,13 +748,13 @@ header .navigation .navigation_menu a:hover:before{
 	}
 }
 .ourmedia{
-	width: 100%;
-	height: fit-content;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	z-index: 3;
-	padding: 6%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    padding: 6%;
 }
 .media{
 	display: flex;
@@ -786,7 +786,7 @@ header .navigation .navigation_menu a:hover:before{
 }
 @media (max-width: 427px){
 	.ourmedia{
-		height: fit-content;
+		height: auto;
 	}
 }
 
