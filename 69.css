@@ -524,7 +524,7 @@ header .navigation .navigation_menu a:hover:before{
 	color: #F4CA26; 
 	position: relative;
 }
-.services:before{
+/*.services:before{
 	content: '';
 	position: absolute;
 	bottom: 0;
@@ -532,7 +532,7 @@ header .navigation .navigation_menu a:hover:before{
 	width: 28%;
 	height: 2px;
 	background: white;
-}
+}*/
 .mainservices{
 	z-index: 3;
 	margin-top: 3%;
@@ -626,7 +626,7 @@ header .navigation .navigation_menu a:hover:before{
 	}
 }
 .ourprofolio{
-	padding: 10%;
+	padding: 10% 6%;
 	display: flex;
 	justify-content: center;
     z-index: 3;
@@ -637,9 +637,9 @@ header .navigation .navigation_menu a:hover:before{
 .profolio{
 	display: flex;
 	justify-content: center;
-	width: 90%;
+	width: 100%;
 	height: fit-content;
-	padding: 3%;
+	padding-bottom:	3%;
 	/*background-image: url('hexligan1.png');*/
 	background-size: cover; 
     background-position: center; 
@@ -647,7 +647,7 @@ header .navigation .navigation_menu a:hover:before{
     position: relative;
 }
 .profolio:before{
-content: '';
+	content: '';
     position: absolute;
     display: flex;
     overflow: hidden;
@@ -655,7 +655,7 @@ content: '';
     /* bottom: 0; */
     /* left: 0; */
     width: 100%;
-    padding: 3%;
+    padding: 0 3%;
     height: -webkit-fill-available;
     border-radius: 30px;
     background: rgba(255, 255, 255, 0.5);;
@@ -674,7 +674,6 @@ content: '';
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-left: 8%;
 	text-transform: uppercase;
 	font-weight: 800;
 }
@@ -724,6 +723,13 @@ content: '';
 	width: 100%;
     height: auto;
     display: block;
+}
+
+.profoimg{
+	overflow: hidden;
+	object-fit: cover;
+	display: flex; 
+	justify-content: center;
 }
 
 @media (max-width: 1024px){
@@ -995,7 +1001,7 @@ content: '';
 	z-index: 1;
 	position: relative;
     display: block;
-   	width: 95%;
+   	width: 99%;
    	height: fit-content;
     padding: 0 0 2% 0;
 }
@@ -1076,8 +1082,17 @@ content: '';
 }
 thead, tbody{
     font-size: 15px;
-        }
+}
+
+@media (max-width: 450px) {
+  th:nth-child(3),
+  td:nth-child(3) {
+    display: none;
+  }
+}
+
 
 .cetificated{
 	z-index: 3;
 }
+
