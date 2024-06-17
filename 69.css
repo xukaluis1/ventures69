@@ -506,7 +506,7 @@ header .navigation .navigation_menu a:hover:before{
 	right: 0;
 	bottom: 0;
 }
-.ourservices:before{
+/*.ourservices:before{
 	content: '';
 	position: absolute;
     top: 0;
@@ -514,7 +514,7 @@ header .navigation .navigation_menu a:hover:before{
     right: 0;
     bottom: 0;
     background: rgba(0, 0, 0, 0.3);
-}
+}*/
 .services{
 	z-index: 3;
 	display: flex;
