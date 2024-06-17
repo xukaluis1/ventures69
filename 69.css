@@ -786,7 +786,7 @@ header .navigation .navigation_menu a:hover:before{
 }
 @media (max-width: 427px){
 	.ourmedia{
-		height: auto;
+		height: 100vh;
 	}
 }
 
