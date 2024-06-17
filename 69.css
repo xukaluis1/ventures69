@@ -997,6 +997,7 @@ header .navigation .navigation_menu a:hover:before{
 	justify-content: center;
 }
 .bg-charity{
+	border: 2px dashed #ffc107;
 	background-color: rgba(255, 255, 255, 0.2);
 	border-radius: 10px;
 	z-index: 1;
