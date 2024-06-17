@@ -747,6 +747,7 @@ header .navigation .navigation_menu a:hover:before{
 		display: none;
 	}
 }
+
 .ourmedia{
     width: 100%;
     height: auto;
@@ -1007,9 +1008,10 @@ header .navigation .navigation_menu a:hover:before{
 }
 
 .table-title {
+	font-weight: bold;
 	text-align: center;
     margin: 20px 0;
-    font-size: 24px;
+    font-size: 30px;
     color: white;
     font-family: Arial, sans-serif;
 }
