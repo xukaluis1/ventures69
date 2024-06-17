@@ -480,13 +480,11 @@ header .navigation .navigation_menu a:hover:before{
 }
 @media (max-width: 600px){
 	.introcontent{
-		margin-left: 20px;
 	    font-size: 17px;
 	}
 }
 @media (max-width: 485px){
 	.introcontent{
-		margin-left: 20px;
 	    font-size: 15px;
 	}
 	.cspan{
@@ -756,7 +754,7 @@ header .navigation .navigation_menu a:hover:before{
 	justify-content: center;
 	align-items: center;
 	z-index: 3;
-	padding-bottom: 3%;
+	padding: 6%;
 }
 .media{
 	display: flex;
@@ -783,18 +781,18 @@ header .navigation .navigation_menu a:hover:before{
 }
 .media p{
 	text-align: center;
-	width: 90%;
+	width: 100%;
 	margin-top: 1%;
 }
 @media (max-width: 427px){
 	.ourmedia{
-		height: auto;
+		height: fit-content;
 	}
 }
 
 @media (max-width: 550px){
 	.media p{
-		width: 90%;
+		width: 100%;
 	}
 }
 
