@@ -1092,6 +1092,19 @@ thead, tbody{
   td:nth-child(3) {
     display: none;
   }
+  thead, tbody{
+    font-size: 14px;
+  }
+  .bg-charity {
+  	width: 100%;
+  }
+  .no-grid-table {
+  	width: 100%;
+  }
+  td:nth-child(1),
+  td:nth-child(4){
+  	font-size: 12px;
+  }
 }
 
 
