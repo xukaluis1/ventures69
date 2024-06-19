@@ -901,18 +901,21 @@ header .navigation .navigation_menu a:hover:before{
 .brandz{
 	display: flex;
 	flex-direction: column;
+	gap: 10px;
 }
 .venturesintro{
 	display: flex;
-	align-items: center;
+    align-items: center;
+    gap: 10px;
 }
 .venturesintro img{
-	width: 70px;
-	height: 70px;
+	width: 50px;
+	height: 50px;
 }
-.venturesintro h{
-	font-size: 24px;
-	color: white;
+.venturesintro h {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
 }
 .hidenprofit{
 	width: 80%;
@@ -923,14 +926,25 @@ header .navigation .navigation_menu a:hover:before{
 }
 .footerproduct{
 	display: flex;
-	flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    gap: 10px;	
+}
+.zsocial{
+	display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    gap: 10px;
 }
 .fpro{
 	display: flex;
-	align-items: center;
-	height: 70px;
-	color: white;
-	font-size: 30px;
+    align-items: center;
+    /* height: 70px; */
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
 }
 .apro{
 	display: flex;
