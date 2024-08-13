@@ -13,6 +13,8 @@ window.addEventListener("scroll", function(){
 });
 
         var contributors = [
+            { username: '@whaleai1st ', transaction: '0xc275194f4ceb45df78a9b40e8ab0cc7e5e09b31c7ba38f3aad7e9c45c566fa15', address: '0x161bA15A5f335c9f06BB5BbB0A9cE14076FBb645', amount: '1075 USDT' },
+            { username: '@kendy071090 ', transaction: '', address: '', amount: '200 USDT' },
             { username: '@Henrick_OG ', transaction: '0x8c058e49de35b069dc85e13928b44c36c5688e48c8bdcc4cb40cb7d6aeb6bb4d', address: '0x487DF73090dBf7E94703AeF66A7Bf20B831Ae55f', amount: '0.1 BNB' },
             { username: '@Mild1253', transaction: '0xa03cb8d448a3a7acbbb68c87284cb28b4c31db5232233f5643ec9efe6e706d7a', address: '0xa180Fe01B906A1bE37BE6c534a3300785b20d947', amount: '50 USDT' },
             { username: '@Nguyen_Nguyen91', transaction: '0xd076e84eb55f00f15307acd8c6a67588a2b7556ba9cc79d9de3e4e5fe3926f13', address: '0x4982085C9e2F89F2eCb8131Eca71aFAD896e89CB', amount: '50 USDT' },
