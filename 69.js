@@ -13,6 +13,7 @@ window.addEventListener("scroll", function(){
 });
 
         var contributors = [
+            { username: 'Team BabyCate', transaction: '', address: '', amount: '$25,000' },
             { username: '@bravosdev', transaction: '0x4a31e561045708464fe47c63d8a596927b1a461c6c9edb4df7a2ee5211905add', address: '0xe2fc31F816A9b94326492132018C3aEcC4a93aE1', amount: '200 USDT' },
             { username: '@SoHotz305', transaction: '0x922e69b6fea0c94008f212011124c5335e88161cc560595e637d5468c5fdcfa9', address: '0xe2fc31F816A9b94326492132018C3aEcC4a93aE1', amount: '100 USDT' },
             { username: '@duke56789', transaction: '0x5bad7e767a590b6fd4a71d16d12c776bbc42bbd015911a41c9172f55d43d3ce8', address: '0x161bA15A5f335c9f06BB5BbB0A9cE14076FBb645', amount: '0.1 BNB' },
